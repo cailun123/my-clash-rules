@@ -1,4 +1,4 @@
-rules:
+payload:
   # 原活跃源
   - DOMAIN-SUFFIX,7sefun.top
   - DOMAIN-SUFFIX,aafun.cc
