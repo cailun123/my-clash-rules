@@ -1,4 +1,4 @@
-payload:
+rule:
   - DOMAIN-SUFFIX,ar26710.online
   - DOMAIN-SUFFIX,beijixingxing.com
   - DOMAIN-SUFFIX,sunlea.de
