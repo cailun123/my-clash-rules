@@ -1,0 +1,26 @@
+rules:
+  # 原活跃源
+  - DOMAIN-SUFFIX,7sefun.top
+  - DOMAIN-SUFFIX,aafun.cc
+  - DOMAIN-SUFFIX,agedm.io
+  - DOMAIN-SUFFIX,aowu.tv
+  - DOMAIN-SUFFIX,baimaodm.com
+  - DOMAIN-SUFFIX,dmbus.cc
+  - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,gugu3.com
+  - DOMAIN-SUFFIX,hfkzm.com
+  - DOMAIN-SUFFIX,libvio.cc
+  - DOMAIN-SUFFIX,mxdm.xy
+  - DOMAIN-SUFFIX,omofun03.top
+  - DOMAIN-SUFFIX,vdm5.co
+  - DOMAIN-SUFFIX,xifanacg.com
+  - DOMAIN-SUFFIX,dmmiku.com
+  - DOMAIN-SUFFIX,ylys.cc
+  # 历史源补充（可能过时）
+  - DOMAIN-SUFFIX,iyinghua.com
+  - DOMAIN-SUFFIX,clicli.pro
+  - DOMAIN-SUFFIX,nyadm.net
+  - DOMAIN-SUFFIX,omofunz.com
+  - DOMAIN-SUFFIX,brovod.com
+  - DOMAIN-SUFFIX,eacg1.com
+  - DOMAIN-SUFFIX,qifun.cc
