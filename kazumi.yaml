@@ -1,4 +1,4 @@
-rule:
+payload:
  # 原活跃源（基于仓库 README 推荐，截至 2026-02-08）
   - DOMAIN-SUFFIX,7sefun.top # 7sefun
   - DOMAIN-SUFFIX,aafun.cc # aafun
