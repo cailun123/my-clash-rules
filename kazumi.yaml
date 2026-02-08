@@ -1,26 +1,26 @@
-payload:
-  # 原活跃源
-  - DOMAIN-SUFFIX,7sefun.top
-  - DOMAIN-SUFFIX,aafun.cc
-  - DOMAIN-SUFFIX,agedm.io
-  - DOMAIN-SUFFIX,aowu.tv
-  - DOMAIN-SUFFIX,baimaodm.com
-  - DOMAIN-SUFFIX,dmbus.cc
-  - DOMAIN-SUFFIX,girigirilove.com
-  - DOMAIN-SUFFIX,gugu3.com
-  - DOMAIN-SUFFIX,hfkzm.com
-  - DOMAIN-SUFFIX,libvio.cc
-  - DOMAIN-SUFFIX,mxdm.xy
-  - DOMAIN-SUFFIX,omofun03.top
-  - DOMAIN-SUFFIX,vdm5.co
-  - DOMAIN-SUFFIX,xifanacg.com
-  - DOMAIN-SUFFIX,dmmiku.com
-  - DOMAIN-SUFFIX,ylys.cc
-  # 历史源补充（可能过时）
-  - DOMAIN-SUFFIX,iyinghua.com
-  - DOMAIN-SUFFIX,clicli.pro
-  - DOMAIN-SUFFIX,nyadm.net
-  - DOMAIN-SUFFIX,omofunz.com
-  - DOMAIN-SUFFIX,brovod.com
-  - DOMAIN-SUFFIX,eacg1.com
-  - DOMAIN-SUFFIX,qifun.cc
+rule:
+ # 原活跃源（基于仓库 README 推荐，截至 2026-02-08）
+  - DOMAIN-SUFFIX,7sefun.top # 7sefun
+  - DOMAIN-SUFFIX,aafun.cc # aafun
+  - DOMAIN-SUFFIX,agedm.io # AGE
+  - DOMAIN-SUFFIX,aowu.tv # aowu
+  - DOMAIN-SUFFIX,baimaodm.com # baimao
+  - DOMAIN-SUFFIX,dmbus.cc # DM84
+  - DOMAIN-SUFFIX,girigirilove.com # giriGiriLove
+  - DOMAIN-SUFFIX,gugu3.com # gugu3
+  - DOMAIN-SUFFIX,hfkzm.com # hfkzm
+  - DOMAIN-SUFFIX,libvio.cc # libvio
+  - DOMAIN-SUFFIX,mxdm.xyz # MXdm
+  - DOMAIN-SUFFIX,omofun03.top # omofun03
+  - DOMAIN-SUFFIX,vdm5.com # WYDM
+  - DOMAIN-SUFFIX,xifanacg.com # xfdm
+  - DOMAIN-SUFFIX,dmmiku.com # yishijie
+  - DOMAIN-SUFFIX,ylys.cc # ylsp
+  # 历史源补充（可能过时或已禁用，不推荐优先使用）
+  - DOMAIN-SUFFIX,iyinghua.com # yinghua
+  - DOMAIN-SUFFIX,clicli.pro # clicli
+  - DOMAIN-SUFFIX,nyadm.net # nyafun
+  - DOMAIN-SUFFIX,omofunz.com # omofunz
+  - DOMAIN-SUFFIX,brovod.com # brovod
+  - DOMAIN-SUFFIX,eacg1.com # eacg
+  - DOMAIN-SUFFIX,qifun.cc # qifun
