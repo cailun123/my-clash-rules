@@ -1,14 +1,11 @@
 payload:
- # 原活跃源（基于仓库 README 推荐，截至 2026-02-08）
+  # 原活跃源（基于仓库 README 当前推荐规则，截至 2026-02-24 最新更新）
   - DOMAIN-SUFFIX,7sefun.top # 7sefun
   - DOMAIN-SUFFIX,aafun.cc # aafun
   - DOMAIN-SUFFIX,agedm.io # AGE
-  - DOMAIN-SUFFIX,aowu.tv # aowu
   - DOMAIN-SUFFIX,baimaodm.com # baimao
   - DOMAIN-SUFFIX,dmbus.cc # DM84
-  - DOMAIN-SUFFIX,girigirilove.com # giriGiriLove
   - DOMAIN-SUFFIX,gugu3.com # gugu3
-  - DOMAIN-SUFFIX,hfkzm.com # hfkzm
   - DOMAIN-SUFFIX,libvio.cc # libvio
   - DOMAIN-SUFFIX,mxdm.xyz # MXdm
   - DOMAIN-SUFFIX,omofun03.top # omofun03
@@ -16,11 +13,39 @@ payload:
   - DOMAIN-SUFFIX,xifanacg.com # xfdm
   - DOMAIN-SUFFIX,dmmiku.com # yishijie
   - DOMAIN-SUFFIX,ylys.cc # ylsp
-  # 历史源补充（可能过时或已禁用，不推荐优先使用）
+  - DOMAIN-SUFFIX,mwcy.cc # mwcy
+  - DOMAIN-SUFFIX,gpjda.com # gpjda   # 新增，最近更新 2026-02-22
+  # 历史源补充（常见旧规则，可能过时、已弃用或不稳定）
   - DOMAIN-SUFFIX,iyinghua.com # yinghua
   - DOMAIN-SUFFIX,clicli.pro # clicli
   - DOMAIN-SUFFIX,nyadm.net # nyafun
   - DOMAIN-SUFFIX,omofunz.com # omofunz
   - DOMAIN-SUFFIX,brovod.com # brovod
-  - DOMAIN-SUFFIX,eacg1.com # eacg
-  - DOMAIN-SUFFIX,qifun.cc # qifun
+  - DOMAIN-SUFFIX,eacg1.com # eacg    # 可能为 eacg 或 eacg1
+  # 其他扩展源（仓库中其余规则提取的域名，部分可能较旧、测试性或备用，不在 README 推荐列表中）
+  - DOMAIN-SUFFIX,anfuns.org # AnFuns
+  - DOMAIN-SUFFIX,bilfun.cc # BF
+  - DOMAIN-SUFFIX,fqdm.cc # FQDM
+  - DOMAIN-SUFFIX,acgfta.com # Fantuan
+  - DOMAIN-SUFFIX,huazidm.com # HZDM
+  - DOMAIN-SUFFIX,lffun.com # IF
+  - DOMAIN-SUFFIX,lmm97.com # LMM
+  - DOMAIN-SUFFIX,mengdao.tv # mandao
+  - DOMAIN-SUFFIX,moefan.cc # moefan
+  - DOMAIN-SUFFIX,nekodm.com # nekodm
+  - DOMAIN-SUFFIX,qdm8.cc # qdm
+  - DOMAIN-SUFFIX,skr1.cc # skr
+  - DOMAIN-SUFFIX,xgcartoon.com # xigua
+  - DOMAIN-SUFFIX,zkk79.com # zkk79
+  - DOMAIN-SUFFIX,233dm.cc # 233dm
+  - DOMAIN-SUFFIX,9ciyuan.com # 9ciyuan
+  - DOMAIN-SUFFIX,akianime.cc # akianime
+  - DOMAIN-SUFFIX,bobodm.com # bobodm
+  - DOMAIN-SUFFIX,ciyuancheng.com # ciyuanCheng   # 或类似拼写
+  - DOMAIN-SUFFIX,jzsdm.com # jzsdm
+  - DOMAIN-SUFFIX,k8dm.cc # k8dm
+  - DOMAIN-SUFFIX,kimani.cc # kimani
+  - DOMAIN-SUFFIX,pekolove.net # pekolove
+  - DOMAIN-SUFFIX,qimi.cc # qimi
+  - DOMAIN-SUFFIX,tt776b.com # tt776b
+  - DOMAIN-SUFFIX,xiapidm.com # xiapidm
