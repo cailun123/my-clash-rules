@@ -4,165 +4,33 @@
     {
       "domain": [
         "localhost",
-        "time-ios.apple.com",
-        "time1.cloud.tencent.com",
-        "music.163.com",
-        "musicapi.taihe.com",
-        "music.taihe.com",
-        "songsearch.kugou.com",
-        "trackercdn.kugou.com",
-        "api-jooxtt.sanook.com",
-        "api.jox.com",
-        "jox.com",
-        "y.qq.com",
-        "streamoc.music.tc.qq.com",
-        "mobileoc.music.tc.qq.com",
-        "isure.stream.qqmusic.qq.com",
-        "dl.stream.qqmusic.qq.com",
-        "aqqmusic.tc.qq.com",
-        "amobile.music.tc.qq.com",
-        "music.migu.cn",
-        "localhost.ptlogin2.qq.com",
-        "localhost.sec.qq.com",
-        "xnotify.xboxlive.com",
-        "proxy.golang.org",
-        "heartbeat.belkin.com",
-        "mesu.apple.com",
-        "swscan.apple.com",
-        "swquery.apple.com",
-        "swdownload.apple.com",
-        "swcdn.apple.com",
-        "swdist.apple.com",
-        "lens.l.google.com",
-        "na.b.g-tun.com",
-        "ff.dorado.sdo.com",
-        "shark007.net",
-        "adguardteam.github.io",
-        "adrules.top",
-        "anti-ad.net",
-        "local.adguard.org",
-        "static.adtidy.org",
-        "ps.res.netease.com",
-        // 微软网络连通性探测
+        "captive.apple.com",
+        "connectivitycheck.gstatic.com",
         "dns.msftncsi.com",
         "www.msftncsi.com",
         "ipv6.msftconnecttest.com",
-        // Apple 网络连通性探测
-        "captive.apple.com",
-        "connectivitycheck.gstatic.com",
-        // 国内常用 DDNS
-        "dynupdate.no-ip.com",
-        // Mijia/米家智能设备
-        "ot.iomi.com",
-        "ott.io.mi.com"
+        "local.adguard.org"
       ]
     },
     {
       "domain_suffix": [
-        // 局域网 / mDNS / 保留域名
-        ".lan",
-        ".localdomain",
-        ".example",
-        ".invalid",
-        ".localhost",
-        ".test",
-        ".local",
-        ".home.arpa",
         ".direct",
-        // NTP
         ".pool.ntp.org",
-        // 国内音乐
-        ".music.163.com",
-        ".126.net",
-        ".kuwo.cn",
-        ".y.qq.com",
-        ".xiami.com",
-        ".music.migu.cn",
-        // 微软网络探测
         ".msftconnectest.com",
         ".msftncsi.com",
-        // 游戏平台
-        ".steamcontent.com",
-        ".srv.nintendo.net",
-        ".cdn.nintendo.net",
-        ".battle.net",
-        ".battlenet.com.cn",
-        ".wotgame.cn",
-        ".wggames.cn",
-        ".wowsgame.cn",
-        ".wargaming.net",
-        // 路由器管理
-        ".linksys.com",
-        ".linksyssmartwifi.com",
-        ".router.asus.com",
-        // 流媒体 CDN（直连更快）
-        ".nflxvideo.net",
-        ".mcdn.bilivideo.cn",
-        ".media.dssott.com",
-        // 游戏
-        ".square-enix.com",
-        ".finalfantasyxiv.com",
-        ".ffxiv.com",
-        ".ff14.sdo.com",
-        // 国内服务
-        ".market.xiaomi.com",
-        ".cmbchina.com",
-        ".cmbimg.com",
-        // P2P / 下载加速
-        ".sandai.net",
-        ".n0808.com",
-        ".oray.com",
-        ".orayimg.com",
-        // 移动网络
         ".3gppnetwork.org",
-        ".pub.3gppnetwork.org",
-        // 网易 U 加速器
-        ".uu.163.com",
-        // 腾讯云加速
-        ".gcloudcs.com",
-        ".gcloudsdk.com",
-        // 新增：微信直连相关
-        ".weixin.qq.com",
-        ".wx.qq.com",
-        ".wechat.com",
-        // 新增：Apple 服务直连
-        ".apple.com.cn",
-        ".icloud.com.cn",
-        // 新增：国内 CDN
-        ".alicdn.com",
-        ".qiniucdn.com",
-        ".qiniucs.com",
-        ".wscdns.com",
-        ".cdn20.com",
-        ".ucloud.cn",
-        // 新增：打印机 / IoT 发现
-        ".tcp.local",
-        ".udp.local",
-        // 新增：Docker Hub镜像加速（国内镜像站）
-        ".mirror.aliyuncs.com",
-        // 新增：edu 校园网
-        ".edu.cn"
+        ".pub.3gppnetwork.org"
       ]
     },
     {
       "domain_regex": [
-        // NTP 服务器
-        "^time\..*\\.com$",
-        "^time\\.*\\.gov$",
-        "^time\..*\\.edu\\.cn$",
-        "^time[1-7]\\..*\\.com$",
-        "^ntp[0-7]?\..*\\.com$",
-        "^[^.]+\\.time\\.edu\\.cn$",
+        "^time[1-7]?\\.[^.]+\.com$",
+        "^time[1-7]?\\.[^.]+\\.gov$",
+        "^time[1-7]?\\.[^.]+\\.edu\\.cn$",
+        "^ntp[0-7]?\\.[^.]+\\.com$",
+        "^[^.]+\.time\\.edu\\.cn$",
         "^[^.]+\\.ntp\\.org\\.cn$",
-        // localhost前缀（微信、Q 等本地回调）
         "^localhost\\.[^.]+\\.qq\\.com$",
-        // Nintendo
-        "^[^.]+\.n\\.n\\.srv\\.nintendo\\.net$",
-        // Xbox / Microsoft
-        "^xbox\\.[^.]+\\.microsoft\.com$",
-        "^[^.]+\\.[^.]+\\.xboxlive\\.com$",
-        "^xbox\\.[^.]+\\.microsoft\\.com$",
-        // STUN 服务器（WebRTC 直连，统一用条正则覆盖所有层级）
         "^(.+\\.)?stun\\..+$"
       ]
     }
