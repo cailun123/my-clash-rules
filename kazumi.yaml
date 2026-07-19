@@ -1,28 +1,40 @@
 payload:
-  # 原活跃源（基于仓库 README 当前推荐规则，截至 2026-02-24 最新更新）
-  - DOMAIN-SUFFIX,7sefun.top # 7sefun
-  - DOMAIN-SUFFIX,aafun.cc # aafun
-  - DOMAIN-SUFFIX,agedm.io # AGE
-  - DOMAIN-SUFFIX,baimaodm.com # baimao
-  - DOMAIN-SUFFIX,dmbus.cc # DM84
-  - DOMAIN-SUFFIX,gugu3.com # gugu3
-  - DOMAIN-SUFFIX,libvio.cc # libvio
-  - DOMAIN-SUFFIX,mxdm.xyz # MXdm
-  - DOMAIN-SUFFIX,omofun03.top # omofun03
-  - DOMAIN-SUFFIX,vdm5.com # WYDM
-  - DOMAIN-SUFFIX,xifanacg.com # xfdm
-  - DOMAIN-SUFFIX,dmmiku.com # yishijie
-  - DOMAIN-SUFFIX,ylys.cc # ylsp
-  - DOMAIN-SUFFIX,mwcy.cc # mwcy
-  - DOMAIN-SUFFIX,gpjda.com # gpjda   # 新增，最近更新 2026-02-22
-  # 历史源补充（常见旧规则，可能过时、已弃用或不稳定）
+  # ==================== 活跃推荐源（README 优先 + 近期更新） ====================
+  - DOMAIN-SUFFIX,7sefun.top # 7sefun (v1.2)
+  - DOMAIN-SUFFIX,aafun.cc # aafun (v1.1)
+  - DOMAIN-SUFFIX,agedm.io # AGE (v1.5)
+  - DOMAIN-SUFFIX,baimaodm.com # baimao (v1.0)
+  - DOMAIN-SUFFIX,ciyuancheng.com # ciyuancheng (v2.0)
+  - DOMAIN-SUFFIX,dalvdm.com # dalvdm (v1.0)
+  - DOMAIN-SUFFIX,dmbus.cc # DM84 (v1.4)
+  - DOMAIN-SUFFIX,enlie.pro # enlie (v1.0)
+  - DOMAIN-SUFFIX,fcdm.cc # fcdm (v1.0)
+  - DOMAIN-SUFFIX,girigirilove.com # giriGiriLove (v2.3)
+  - DOMAIN-SUFFIX,gpjda.com # gpjda (v1.0)
+  - DOMAIN-SUFFIX,gugu3.com # gugu3 (v1.3)
+  - DOMAIN-SUFFIX,mgnacg.com # mgnacg (v1.0)
+  - DOMAIN-SUFFIX,mutefun.cc # mutefun (v1.1)
+  - DOMAIN-SUFFIX,mwcy.cc # mwcy (v1.2)
+  - DOMAIN-SUFFIX,mxdm.xyz # MXdm (v2.3)
+  - DOMAIN-SUFFIX,omofun03.top # omofun03 (v1.1)
+  - DOMAIN-SUFFIX,sorani.cc # sorani (v1.0)
+  - DOMAIN-SUFFIX,tvtfun.cc # TvTFun (v1.1)
+  - DOMAIN-SUFFIX,xifanacg.com # xfdm (v2.1)
+  - DOMAIN-SUFFIX,xfdmneo.com # xfdmneo (v1.1)
+
+  # ==================== 历史/补充源（可能仍可用或备用） ====================
   - DOMAIN-SUFFIX,iyinghua.com # yinghua
   - DOMAIN-SUFFIX,clicli.pro # clicli
   - DOMAIN-SUFFIX,nyadm.net # nyafun
   - DOMAIN-SUFFIX,omofunz.com # omofunz
   - DOMAIN-SUFFIX,brovod.com # brovod
-  - DOMAIN-SUFFIX,eacg1.com # eacg    # 可能为 eacg 或 eacg1
-  # 其他扩展源（仓库中其余规则提取的域名，部分可能较旧、测试性或备用，不在 README 推荐列表中）
+  - DOMAIN-SUFFIX,eacg1.com # eacg
+  - DOMAIN-SUFFIX,libvio.cc # libvio
+  - DOMAIN-SUFFIX,vdm5.com # WYDM
+  - DOMAIN-SUFFIX,dmmiku.com # yishijie
+  - DOMAIN-SUFFIX,ylys.cc # ylsp
+
+  # ==================== 其他扩展源（仓库中其余规则提取） ====================
   - DOMAIN-SUFFIX,anfuns.org # AnFuns
   - DOMAIN-SUFFIX,bilfun.cc # BF
   - DOMAIN-SUFFIX,fqdm.cc # FQDM
@@ -41,7 +53,6 @@ payload:
   - DOMAIN-SUFFIX,9ciyuan.com # 9ciyuan
   - DOMAIN-SUFFIX,akianime.cc # akianime
   - DOMAIN-SUFFIX,bobodm.com # bobodm
-  - DOMAIN-SUFFIX,ciyuancheng.com # ciyuanCheng   # 或类似拼写
   - DOMAIN-SUFFIX,jzsdm.com # jzsdm
   - DOMAIN-SUFFIX,k8dm.cc # k8dm
   - DOMAIN-SUFFIX,kimani.cc # kimani
@@ -49,3 +60,20 @@ payload:
   - DOMAIN-SUFFIX,qimi.cc # qimi
   - DOMAIN-SUFFIX,tt776b.com # tt776b
   - DOMAIN-SUFFIX,xiapidm.com # xiapidm
+  - DOMAIN-SUFFIX,mandao.tv # mandao 备用
+  - DOMAIN-SUFFIX,mcy.cc # mcy
+  - DOMAIN-SUFFIX,mitang.tv # mitang
+  - DOMAIN-SUFFIX,qkan9.com # qkan9
+  - DOMAIN-SUFFIX,yinghua.com # yinghua 备用
+
+  # ==================== 通用/备用域名（部分规则可能使用） ====================
+  - DOMAIN-SUFFIX,anime7.cc # anime7
+  - DOMAIN-SUFFIX,antdm.com # ant
+  - DOMAIN-SUFFIX,aowu.tv # aowu
+  - DOMAIN-SUFFIX,ffdm.cc # ffdm
+  - DOMAIN-SUFFIX,hfkzm.com # hfkzm
+  - DOMAIN-SUFFIX,mifun.cc # mifun
+  - DOMAIN-SUFFIX,mitaodm.com # mitaodm
+  - DOMAIN-SUFFIX,nyafun.cc # nyafun 备用
+  - DOMAIN-SUFFIX,qifun.cc # qifun
+  - DOMAIN-SUFFIX,xlzdm.com # xiaobao / 相关
